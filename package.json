@@ -1,8 +1,8 @@
 {
   "name": "flocktory",
-  "version": "17.0.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "Личный проект «Кэт энерджи» от HTML Academy",
+  "description": "Тестовое задание flocktory",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "^9.5.1",
@@ -47,5 +47,8 @@
   "engines": {
     "node": "8.16"
   },
-  "dependencies": {}
+  "dependencies": {
+    "deep-extend": "^0.6.0",
+    "merge": "^1.2.1"
+  }
 }

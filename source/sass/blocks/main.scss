@@ -1,0 +1,70 @@
+.main {
+  background-color: #ffffff;
+  padding: 18px;
+}
+
+.main__discount-amount {
+  font-family: "ALSSchlangesans-Black", "Arial", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  color: #f1d02f;
+  border-radius: 8px;
+  background-color: #2856a8;
+  width: 30%;
+}
+
+.main__user-name {
+  font-family: "ALSSchlangesans-Black", "Arial", sans-serif;
+  color: #2856a8;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.72px;
+}
+
+.main__desc {
+  color: #484848;
+  font-family: "MyriadPro", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+}
+
+.main__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__email {
+  color: #484848;
+  font-family: "RotondaC", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+}
+
+.main__form textarea {
+  color: #484848;
+  font-family: "RotondaC", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+}
+
+.main__button {
+  width: 264px;
+  height: 47px;
+  border-radius: 24px;
+  background-color: #2856a8;
+  font-family: "RotondaC", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  color: #ffffff;
+}

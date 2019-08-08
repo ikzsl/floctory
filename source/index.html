@@ -8,11 +8,11 @@
 </head>
 
 <body>
-    <div style="display: none">
-  <include src="build/img/sprite.svg"></include>
-      </div>
+  <div style="display: none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
   <div class="widget">
-    <label class="widget__close" for="close"></label>
+    <label class="widget__close visually-hidden" for="close">Закрыть</label>
     <button class="visually-hidden" type="button" id="close">Закрыть</button>
 
     <header class="widget__header">
@@ -29,31 +29,39 @@
       <ul class="main__social social">
         <li class="social__iitem">
           <a href="https://www.ok.ru" class="social__link social__link--ok">
-            <svg width="16" height="26"><use xlink:href="#icon-ok"></use></svg>
+            <svg width="16" height="26">
+              <use xlink:href="#icon-ok"></use>
+            </svg><span class="visually-hidden">
 
-            Одноклассники</a>
+              Одноклассники</span></a>
         </li>
         <li class="social__iitem">
           <a href="https://www.facebook.com" class="social__link social__link--fb">
-            <svg width="15" height="26"><use xlink:href="#icon-fb"></use></svg>
-            Фейсбук</a>
+            <svg width="15" height="26">
+              <use xlink:href="#icon-fb"></use>
+            </svg>
+            <span class="visually-hidden">Фейсбук</span></a>
         </li>
         <li class="social__iitem">
           <a href="https://www.twitter.com" class="social__link social__link--tw">
-            <svg width="23" height="18"><use xlink:href="#icon-tw"></use></svg>
-            Твиттер</a>
+            <svg width="23" height="18">
+              <use xlink:href="#icon-tw"></use>
+            </svg>
+            <span class="visually-hidden">Твиттер</span></a>
         </li>
         <li class="social__iitem">
           <a href="https://www.vk.com" class="social__link social__link--vk">
-            <svg width="22" height="22"><use xlink:href="#icon-vk"></use></svg>
-            Вконтакте</a>
+            <svg width="22" height="22">
+              <use xlink:href="#icon-vk"></use>
+            </svg>
+            <span class="visually-hidden">Вконтакте</span></a>
         </li>
       </ul>
-      <form action="https://echo.htmlacademy.ru" method="POST">
-        <input type="email" placeholder="E-mail друзей" name="email">
+      <form class="main__form" action="https://echo.htmlacademy.ru" method="POST">
+        <input class="main__email" type="email" placeholder="E-mail друзей" name="email">
         <textarea readonly name="text-discount">Хороший ассортимент и в %site_name%. Только что после покупки  подарили скидку %friend_reward% для моих друзей!
           Времени мало, Вперёд!</textarea>
-        <input type="submit" value="Отправить">
+        <input class="main__button" type="submit" value="Отправить">
       </form>
     </main>
 

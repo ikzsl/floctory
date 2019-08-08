@@ -1,0 +1,41 @@
+.footer {
+  background-color: transparent;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__rules-link {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px dashed #2856a8;
+  background-color: #ffffff;
+  color: #2856a8;
+  font-family: "RotondaC", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  text-decoration: none;
+}
+
+.footer__rules-label {
+  color: #ffffff;
+  font-family: "RotondaC", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.48px;
+}
+
+.footer__user-agreement {
+  color: #ffffff;
+  font-family: "RotondaC", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+}
