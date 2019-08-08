@@ -6,8 +6,9 @@
 @import "blocks/footer.scss";
 
 body {
-  background-color: #eeeeee;
+  background-color: #999999;
   width: 300px;
+  margin: 0 auto;
 }
 
 .visually-hidden:not(:focus):not(:active),

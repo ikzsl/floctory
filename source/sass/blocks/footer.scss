@@ -7,7 +7,8 @@
 }
 
 .footer__rules-link {
-  padding: 15px;
+  padding: 12px 17px;
+  margin-bottom: 22px;
   border-radius: 8px;
   border: 1px dashed #2856a8;
   background-color: #ffffff;
@@ -27,6 +28,24 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0.48px;
+  position: relative;
+  margin: 0;
+  margin-left: -20px;
+  margin-bottom: 17px;
+}
+
+.footer__rules-label::after {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  top: 6px;
+  right: -20px;
+
+  border: 2px solid #f1d02f;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
 }
 
 .footer__user-agreement {

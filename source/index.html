@@ -12,44 +12,43 @@
     <include src="build/img/sprite.svg"></include>
   </div>
   <div class="widget">
-    <label class="widget__close visually-hidden" for="close">Закрыть</label>
-    <button class="visually-hidden" type="button" id="close">Закрыть</button>
+    <label class="widget__close" for="close">Закрыть</label>
+    <input class="visually-hidden" type="button" id="close">
 
     <header class="widget__header">
-      <h1 class="widget__headline">Ваш заказ №
-        <span class="widget__order-number">1890990</span>
+      <h1 class="widget__headline">Ваш заказ №<span class="widget__order-number">1890998</span>
         принят и находится в обработке
       </h1>
     </header>
 
     <main class="widget__main main">
-      <div class="main__discount-amount">10%</div>
-      <p class="main__user-name">Михаил Иванович</p>
+      <div class="main__wrapper">
+        <p class="main__user-name">Михаил Иванович</p>
+        <div class="main__discount-amount">10%</div>
+      </div>
       <p class="main__desc">подарите друзьям скидку в «CompanyName» и получите скидку в подарок, за каждого друга</p>
       <ul class="main__social social">
-        <li class="social__iitem">
+        <li class="social__item">
           <a href="https://www.ok.ru" class="social__link social__link--ok">
             <svg width="16" height="26">
               <use xlink:href="#icon-ok"></use>
-            </svg><span class="visually-hidden">
-
-              Одноклассники</span></a>
+            </svg><span class="visually-hidden">Одноклассники</span></a>
         </li>
-        <li class="social__iitem">
+        <li class="social__item">
           <a href="https://www.facebook.com" class="social__link social__link--fb">
             <svg width="15" height="26">
               <use xlink:href="#icon-fb"></use>
             </svg>
             <span class="visually-hidden">Фейсбук</span></a>
         </li>
-        <li class="social__iitem">
+        <li class="social__item">
           <a href="https://www.twitter.com" class="social__link social__link--tw">
-            <svg width="23" height="18">
+            <svg width="23" height="23">
               <use xlink:href="#icon-tw"></use>
             </svg>
             <span class="visually-hidden">Твиттер</span></a>
         </li>
-        <li class="social__iitem">
+        <li class="social__item">
           <a href="https://www.vk.com" class="social__link social__link--vk">
             <svg width="22" height="22">
               <use xlink:href="#icon-vk"></use>
@@ -59,8 +58,8 @@
       </ul>
       <form class="main__form" action="https://echo.htmlacademy.ru" method="POST">
         <input class="main__email" type="email" placeholder="E-mail друзей" name="email">
-        <textarea readonly name="text-discount">Хороший ассортимент и в %site_name%. Только что после покупки  подарили скидку %friend_reward% для моих друзей!
-          Времени мало, Вперёд!</textarea>
+        <textarea class="main__textarea" readonly rows="7" name="text-discount">Хороший ассортимент и цены в %site_name%. Только что после покупки  подарили скидку %friend_reward% для моих друзей!
+            &#010Времени мало, Вперёд!</textarea>
         <input class="main__button" type="submit" value="Отправить">
       </form>
     </main>
@@ -69,7 +68,6 @@
       <a class="footer__rules-link" href="http://floctoryblablabla/#########">http://floctoryblablabla/#########</a>
       <p class="footer__rules-label">Правила акции</p>
       <a class="footer__user-agreement" href="#">Пользовательское соглашение</a>
-
     </footer>
   </div>
 </body>

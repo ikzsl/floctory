@@ -1,6 +1,16 @@
 .main {
   background-color: #ffffff;
-  padding: 18px;
+  padding: 15px 18px;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.main__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: -20px;
+  align-items: center;
+  margin-bottom: 7px;
 }
 
 .main__discount-amount {
@@ -10,9 +20,10 @@
   font-weight: 400;
   letter-spacing: 0.64px;
   color: #f1d02f;
-  border-radius: 8px;
+  border-radius: 8px 0 0 8px;
   background-color: #2856a8;
-  width: 30%;
+  padding: 10px 20px 6px;
+  width: 55px;
 }
 
 .main__user-name {
@@ -22,6 +33,7 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0.72px;
+  margin: 0;
 }
 
 .main__desc {
@@ -31,6 +43,13 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0.56px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.main__social {
+  margin: 0;
+  margin-bottom: 18px;
 }
 
 .main__form {
@@ -45,20 +64,30 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0.56px;
+  padding: 6px 10px;
+  border: 1px solid #2856a8;
+  border-radius: 5px;
+  margin-bottom: 12px;
 }
 
-.main__form textarea {
+.main__textarea {
   color: #484848;
   font-family: "RotondaC", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0.56px;
+  border: 1px solid #2856a8;
+  border-radius: 5px;
+  padding: 12px 10px;
+  margin-bottom: 15px;
+  resize: none;
 }
 
 .main__button {
   width: 264px;
   height: 47px;
+  border: none;
   border-radius: 24px;
   background-color: #2856a8;
   font-family: "RotondaC", "Arial", sans-serif;
@@ -67,4 +96,12 @@
   line-height: 18px;
   letter-spacing: 0.56px;
   color: #ffffff;
+
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 5px #2856a8;
+    background-color: #ffffff;
+    color: #2856a8;
+  }
 }
